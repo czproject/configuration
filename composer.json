@@ -1,0 +1,27 @@
+{
+	"name": "czproject/configuration",
+	"type": "library",
+	"description": "Helper for processing of configurations.",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jan Pecha",
+			"homepage": "https://www.janpecha.cz/"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"nette/utils": "^2.4",
+		"czproject/arrays": "^1.0"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require-dev": {
+		"nette/tester": "^1.7",
+		"nette/neon": "^2.4"
+	},
+	"suggest": {
+		"nette/neon": "Required by NeonAdapter"
+	}
+}
