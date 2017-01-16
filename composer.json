@@ -11,7 +11,7 @@
 	],
 	"require": {
 		"php": ">=5.4.0",
-		"nette/utils": "^2.4",
+		"nette/utils": "^2.3",
 		"czproject/arrays": "^1.0"
 	},
 	"autoload": {
@@ -19,7 +19,7 @@
 	},
 	"require-dev": {
 		"nette/tester": "^1.7",
-		"nette/neon": "^2.4"
+		"nette/neon": "^2.3"
 	},
 	"suggest": {
 		"nette/neon": "Required by NeonAdapter"
