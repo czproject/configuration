@@ -3,6 +3,17 @@
 
 Helper for processing of configurations.
 
+## Installation
+
+[Download a latest package](https://github.com/czproject/configuration/releases) or use [Composer](http://getcomposer.org/):
+
+```
+composer require czproject/configuration
+```
+
+`CzProject\Configuration` requires PHP 5.4.0 or later.
+
+
 ## Usage
 
 ``` php
@@ -108,19 +119,6 @@ $config = $configurator->getConfigExpandedBy('parameters');
 ]
 */
 ```
-
-
-Installation
-------------
-
-[Download a latest package](https://github.com/czproject/configuration/releases) or use [Composer](http://getcomposer.org/):
-
-```
-composer require [--dev] czproject/configuration
-```
-
-`CzProject\Configuration` requires PHP 5.4.0 or later.
-
 
 ------------------------------
 
