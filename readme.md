@@ -1,6 +1,8 @@
 
 # CzProject\Configuration
 
+[![Build Status](https://travis-ci.org/czproject/configuration.svg?branch=master)](https://travis-ci.org/czproject/configuration)
+
 Helper for processing of configurations.
 
 ## Installation
