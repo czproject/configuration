@@ -5,6 +5,10 @@
 
 Helper for processing of configurations.
 
+<a href="https://www.patreon.com/bePatron?u=9680759"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="35"></a>
+<a href="https://www.paypal.me/janpecha/1eur"><img src="https://buymecoffee.intm.org/img/button-paypal-white.png" alt="Buy me a coffee" height="35"></a>
+
+
 ## Installation
 
 [Download a latest package](https://github.com/czproject/configuration/releases) or use [Composer](http://getcomposer.org/):
@@ -19,8 +23,6 @@ composer require czproject/configuration
 ## Usage
 
 ``` php
-<?php
-
 use CzProject\Configuration\Configurator;
 
 $configurator = new Configurator;
@@ -54,8 +56,6 @@ $config = $configurator->getConfig();
 ### Config files
 
 ``` php
-<?php
-
 use CzProject\Configuration\Configurator;
 use CzProject\Configuration\ConfigLoader;
 use CzProject\Configuration\Adapters;
@@ -75,8 +75,6 @@ $config = $configurator->getConfig();
 ### Parameters & placeholders
 
 ``` php
-<?php
-
 use CzProject\Configuration\Configurator;
 
 $configurator = new Configurator;
