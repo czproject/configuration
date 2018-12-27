@@ -61,8 +61,9 @@ use CzProject\Configuration\ConfigLoader;
 use CzProject\Configuration\Adapters;
 
 $loader = new ConfigLoader;
-$loader->addAdapter('json', Adapters\JsonAdapter);
-$loader->addAdapter('php', Adapters\PhpAdapter);
+$loader->addAdapter('json', new Adapters\JsonAdapter);
+$loader->addAdapter('php', new Adapters\PhpAdapter);
+$loader->addAdapter('neon', new Adapters\NeonAdapter);
 
 $configurator = new Configurator($loader);
 $configurator->addConfig('config.json');
